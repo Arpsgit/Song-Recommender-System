@@ -21,7 +21,7 @@ selected_song = st.selectbox("Type or select a Song from the dropdown", song_lis
 def song_recommend(song):
     similar_song_names = []
     song_index = song_df[song_df['name'] == song].index[0]
-    a = euclidean_distances([song_feat_scaled[song_index]], np.delete(song_feat_scaled, song_index, axis=0))[0]
+    a = euclidean_distances([song_feat_scaled[song_index]], song_feat_scaled)[0]
     similar_songs = sorted(enumerate(a), key=lambda x: x[1])[1:6]
     for s in similar_songs:
         similar_song_names.append(song_df.iloc[s[0]]['name'])
