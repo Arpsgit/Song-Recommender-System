@@ -7,4 +7,8 @@
 This a web app where we can get song recommendations based on our input song. We can also listen preview of these songs.
 ### :musical_note:
 
+
+<br> 1. It is a Content Based Recommender system <br>
+<br> 2. It finds the Eucledian distance on the basis of some musical and audio features <br>
+
 ### Visit my website: [Arpan's portfolio](https://sites.google.com/view/arpanmanna) :panda_face:
