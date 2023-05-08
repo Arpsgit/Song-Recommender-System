@@ -1,6 +1,6 @@
 # Song-Recommender-System
 
-## :musical_notes:
+## :musical_keyboard:
 
 ## Click here to use this app: [Song Recommender System](https://arpsgit-song-recommender-system-main-0mcr3k.streamlit.app/)
 
